@@ -1,0 +1,182 @@
+[
+    {
+      "room_id": "300001",
+      "room_created_at": "2024-10-22T04:42:30",
+      "channel": "ads",
+      "customer": {
+        "customer_id": "cust_001",
+        "customer_name": "Alice Johnson",
+        "phone": "081234567891"
+      },
+      "messages": [
+        {
+          "message_id": "msg_001",
+          "sender_type": "customer",
+          "message_text": "Hi! I'm interested in swimming classes",
+          "message_date": "2024-10-22T04:42:30"
+        },
+        {
+          "message_id": "msg_002",
+          "sender_type": "agent",
+          "message_text": "Sure! We have classes available for 3-5 Y.O.",
+          "message_date": "2024-10-22T04:45:30"
+        },
+        {
+          "message_id": "msg_003",
+          "sender_type": "system",
+          "message_text": "Booking confirmed for 24 Oct",
+          "message_date": "2024-10-23T10:00:00"
+        },
+        {
+          "message_id": "msg_004",
+          "sender_type": "system",
+          "message_text": "Payment of IDR 500000 confirmed",
+          "message_date": "2024-10-24T08:00:00"
+        }
+      ]
+    },
+    {
+      "room_id": "300002",
+      "room_created_at": "2024-10-22T04:47:25",
+      "channel": "website",
+      "customer": {
+        "customer_id": "cust_002",
+        "customer_name": "Bob Smith",
+        "phone": "081234567892"
+      },
+      "messages": [
+        {
+          "message_id": "msg_005",
+          "sender_type": "customer",
+          "message_text": "Interested in a free trial class",
+          "message_date": "2024-10-22T04:47:25"
+        },
+        {
+          "message_id": "msg_006",
+          "sender_type": "agent",
+          "message_text": "We can book you for Friday 25th!",
+          "message_date": "2024-10-22T04:50:00"
+        }
+      ]
+    },
+    {
+      "room_id": "300003",
+      "room_created_at": "2024-10-22T04:49:53",
+      "channel": "campaign",
+      "customer": {
+        "customer_id": "cust_003",
+        "customer_name": "Chloe Davis",
+        "phone": "081234567893"
+      },
+      "messages": [
+        {
+          "message_id": "msg_007",
+          "sender_type": "customer",
+          "message_text": "Is there a promo for toddlers?",
+          "message_date": "2024-10-22T04:49:53"
+        }
+      ]
+    },
+    {
+      "room_id": "300004",
+      "room_created_at": "2024-10-23T09:15:00",
+      "channel": "organic",
+      "customer": {
+        "customer_id": "cust_004",
+        "customer_name": "Daniela Fern",
+        "phone": "081234567894"
+      },
+      "messages": [
+        {
+          "message_id": "msg_008",
+          "sender_type": "customer",
+          "message_text": "How to register for a trial class?",
+          "message_date": "2024-10-23T09:15:00"
+        },
+        {
+          "message_id": "msg_009",
+          "sender_type": "agent",
+          "message_text": "You can pick a slot on Saturday morning.",
+          "message_date": "2024-10-23T09:17:00"
+        },
+        {
+          "message_id": "msg_010",
+          "sender_type": "system",
+          "message_text": "Booking confirmed for 26 Oct",
+          "message_date": "2024-10-23T11:00:00"
+        }
+      ]
+    },
+    {
+      "room_id": "300005",
+      "room_created_at": "2024-10-23T10:30:00",
+      "channel": "direct",
+      "customer": {
+        "customer_id": "cust_001",
+        "customer_name": "Alice Johnson",
+        "phone": "081234567891"
+      },
+      "messages": [
+        {
+          "message_id": "msg_011",
+          "sender_type": "customer",
+          "message_text": "Need class schedule update",
+          "message_date": "2024-10-23T10:30:00"
+        },
+        {
+          "message_id": "msg_012",
+          "sender_type": "agent",
+          "message_text": "We've added more morning sessions",
+          "message_date": "2024-10-23T10:31:00"
+        }
+      ]
+    },
+    {
+        "room_id": "300006",
+        "room_created_at": "2024-10-23T10:30:00",
+        "channel": "direct",
+        "customer": {
+          "customer_id": "cust_001",
+          "customer_name": "Alice Johnson",
+          "phone": "081234567891"
+        },
+        "messages": [
+          {
+            "message_id": "msg_021",
+            "sender_type": "customer",
+            "message_text": "Need class schedule update",
+            "message_date": "2024-10-23T10:30:00"
+          },
+          {
+            "message_id": "msg_022",
+            "sender_type": "agent",
+            "message_text": "We've added more morning sessions",
+            "message_date": "2024-10-23T10:31:00"
+          }
+        ]
+      },
+      {
+        "room_id": "300007",
+        "room_created_at": "2025-10-23T10:30:00",
+        "channel": "direct",
+        "customer": {
+          "customer_id": "cust_001",
+          "customer_name": "Alice Johnson",
+          "phone": "081234567891"
+        },
+        "messages": [
+          {
+            "message_id": "msg_031",
+            "sender_type": "customer",
+            "message_text": "Need class schedule update",
+            "message_date": "2024-10-23T10:30:00"
+          },
+          {
+            "message_id": "msg_032",
+            "sender_type": "agent",
+            "message_text": "We've added more morning sessions",
+            "message_date": "2024-10-23T10:31:00"
+          }
+        ]
+      }
+  ]

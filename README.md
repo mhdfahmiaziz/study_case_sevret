@@ -68,4 +68,3 @@ The project will stream events generated from a API and create a data pipeline t
 - Airflow
 - DBT (Data Build Tools)
 - Docker
-- Amazon Web Service (AWS)

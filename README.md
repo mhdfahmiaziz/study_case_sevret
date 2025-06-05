@@ -40,14 +40,12 @@ The project will stream events generated from a API and create a data pipeline t
             - customer_name VARCHAR(255),
             - phone VARCHAR(20),
             - created_at TIMESTAMP,
-            - updated_at TIMESTAMP
 
         Rooms table
             - room_id VARCHAR(50) PRIMARY KEY,
             - customer_id VARCHAR(50) REFERENCES customers,
             - channel VARCHAR(50),
             - room_created_at TIMESTAMP,
-            - kafka_processed_at TIMESTAMP,
             - created_at TIMESTAMP
         
         Messages table 

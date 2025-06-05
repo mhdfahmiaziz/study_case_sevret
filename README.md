@@ -15,7 +15,7 @@ The project will stream events generated from a API and create a data pipeline t
 
     Kafka Producer: The API acts as a Kafka Producer, sending data records (messages) into Kafka topics.
 
-    Kafka Consumer: Concurrently, there are Kafka Consumers reading these messages from Kafka topics. In this setup, the Kafka Consumer is likely responsible for feeding data into the next stage, Apache Airflow.
+    Kafka Consumer: Concurrently, there are Kafka Consumers reading these messages from Kafka topics.
 4. `Minio Object Storage (Data Lake)`:
     Minio is a high-performance, distributed object storage system, compatible with Amazon S3. It's labeled here as a "Data Lake." After data is consumed by Kafka, it's stored in Minio. Why i used data lake? Because the data will be have backup plan.
 5. `PostgreSQL (Relational Database)`:
